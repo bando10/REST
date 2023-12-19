@@ -6,7 +6,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.List;
 
 
-public interface ChambreRepo extends JpaRepository<Chambre, Long>{
+public interface ChambreRepository extends JpaRepository<Chambre, Long>{
     List<Chambre> findByNbPersonnesGreaterThanEqual(int nbPeoples);
 
 }

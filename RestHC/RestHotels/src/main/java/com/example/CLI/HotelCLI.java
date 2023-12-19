@@ -1,4 +1,4 @@
-package com.example.CLI;
+package com.example.controllers;
 
 import com.example.agence.InOff;
 import com.example.agence.InRes;
